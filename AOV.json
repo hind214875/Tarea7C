@@ -1,0 +1,137 @@
+[ {
+  "id" : "2",
+  "nombreCurso" : "1ESOB",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "402",
+  "diaSemana" : 1,
+  "horas" : 1
+}, {
+  "id" : "840",
+  "nombreCurso" : "3ESOG",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAC",
+  "aula" : "426",
+  "diaSemana" : 3,
+  "horas" : 1
+}, {
+  "id" : "1272",
+  "nombreCurso" : "3ESOG",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAC",
+  "aula" : "426",
+  "diaSemana" : 4,
+  "horas" : 1
+}, {
+  "id" : "57",
+  "nombreCurso" : "1ESOA",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "401",
+  "diaSemana" : 1,
+  "horas" : 2
+}, {
+  "id" : "872",
+  "nombreCurso" : "1ESOA",
+  "inicialesProf" : "AOV",
+  "asignatura" : "TUT",
+  "aula" : "401",
+  "diaSemana" : 3,
+  "horas" : 2
+}, {
+  "id" : "1304",
+  "nombreCurso" : "1ESOA",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "401",
+  "diaSemana" : 4,
+  "horas" : 2
+}, {
+  "id" : "936",
+  "nombreCurso" : "1ESOB",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "402",
+  "diaSemana" : 3,
+  "horas" : 3
+}, {
+  "id" : "1377",
+  "nombreCurso" : "1ESOI",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "203",
+  "diaSemana" : 4,
+  "horas" : 3
+}, {
+  "id" : "237",
+  "nombreCurso" : "3ESOG",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAC",
+  "aula" : "426",
+  "diaSemana" : 1,
+  "horas" : 5
+}, {
+  "id" : "628",
+  "nombreCurso" : "1ESOI",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "203",
+  "diaSemana" : 2,
+  "horas" : 5
+}, {
+  "id" : "1044",
+  "nombreCurso" : "1ESOI",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "203",
+  "diaSemana" : 3,
+  "horas" : 5
+}, {
+  "id" : "1888",
+  "nombreCurso" : "3ESOG",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAC",
+  "aula" : "426",
+  "diaSemana" : 5,
+  "horas" : 5
+}, {
+  "id" : "285",
+  "nombreCurso" : "1ESOI",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "203",
+  "diaSemana" : 1,
+  "horas" : 6
+}, {
+  "id" : "674",
+  "nombreCurso" : "1ESOB",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "402",
+  "diaSemana" : 2,
+  "horas" : 6
+}, {
+  "id" : "1099",
+  "nombreCurso" : "1ESOA",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "401",
+  "diaSemana" : 3,
+  "horas" : 6
+}, {
+  "id" : "1507",
+  "nombreCurso" : "1ESOB",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "402",
+  "diaSemana" : 4,
+  "horas" : 6
+}, {
+  "id" : "752",
+  "nombreCurso" : "1ESOA",
+  "inicialesProf" : "AOV",
+  "asignatura" : "MAT",
+  "aula" : "401",
+  "diaSemana" : 2,
+  "horas" : 7
+} ]

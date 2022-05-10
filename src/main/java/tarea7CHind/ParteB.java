@@ -38,6 +38,7 @@ public class ParteB {
         listaCursos.stream()
                 .filter(c -> c.getAsignatura().equalsIgnoreCase("REL"))
                 .map(c -> c.getInicialesProf())
+                .distinct()
                 .sorted(Collections.reverseOrder())
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
@@ -48,7 +49,7 @@ public class ParteB {
                 .filter(c -> c.getInicialesProf().equalsIgnoreCase("JFV"))
                 .map(c -> c.getAula())
                 .distinct()
-                .collect(Collectors.toList())
+                .collect(Collectors.toList())//no hace falta porque no guardo en ningun lista
                 .forEach(System.out::println);
 
         /*e) Contar el número de asignaturas distintas que hay*/
@@ -60,7 +61,6 @@ public class ParteB {
         /*f. Contar el total de horas que se imparten a última hora de la mañana.*/
         long totalHoras = listaCursos.stream()
                 .filter(c -> c.getHoras() == 7)
-                .map(c -> c.getHoras())
                 .count();
         System.out.println("horas que se imparten a última hora de la mañana: " + totalHoras);
 
@@ -69,6 +69,7 @@ public class ParteB {
         listaCursos.stream()
                 .filter(c -> c.getHoras() == 1)
                 .map(c -> c.getInicialesProf())
+                .distinct()
                 .forEach(System.out::println);
     }
 }
