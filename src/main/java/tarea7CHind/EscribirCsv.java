@@ -16,10 +16,10 @@ import java.util.ArrayList;
  */
 public class EscribirCsv {
 
-    public static void escrituraFicheroCsv(String idFichero, ArrayList<Curso> lista ) {
+    public static <T> void escrituraFicheroCsv(String idFichero, ArrayList<T> lista) {
 
         try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
-            for (Curso obj : lista) {
+            for (T obj : lista) {
                 flujo.write(obj.toString());
                 flujo.newLine();
             }

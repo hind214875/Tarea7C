@@ -7,6 +7,7 @@ package tarea7CHind;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 
 /**
@@ -35,13 +36,13 @@ public class ParteB {
         /*c) Obtener una lista con las iniciales del profesorado que imparte la asignatura REL, 
              ordenadas en orden inverso al orden alfabético*/
         System.out.println("\nlista iniciales del profesorado que imparte asignatura REL: ");
-        listaCursos.stream()
+        List<String> l=listaCursos.stream()
                 .filter(c -> c.getAsignatura().equalsIgnoreCase("REL"))
                 .map(c -> c.getInicialesProf())
                 .distinct()
                 .sorted(Collections.reverseOrder())
-                .collect(Collectors.toList())
-                .forEach(System.out::println);
+                .collect(Collectors.toList());
+               l.forEach(System.out::println);
 
         /*d) Obtener en una lista las aulas donde imparte clase el profesor "JFV"  */
         System.out.println("lista las aulas donde imparte clase el profesor \"JFV\" ");
